@@ -38,10 +38,12 @@
   },
   "name":"Sprites",
   "resources":[
+    {"id":{"name":"fnt_Game","path":"fonts/fnt_Game/fnt_Game.yy",},},
     {"id":{"name":"Obj_Bloque","path":"objects/Obj_Bloque/Obj_Bloque.yy",},},
     {"id":{"name":"Obj_Colision","path":"objects/Obj_Colision/Obj_Colision.yy",},},
     {"id":{"name":"Obj_Espejo","path":"objects/Obj_Espejo/Obj_Espejo.yy",},},
     {"id":{"name":"Obj_Labial","path":"objects/Obj_Labial/Obj_Labial.yy",},},
+    {"id":{"name":"Obj_Menu","path":"objects/Obj_Menu/Obj_Menu.yy",},},
     {"id":{"name":"Obj_Mesa","path":"objects/Obj_Mesa/Obj_Mesa.yy",},},
     {"id":{"name":"Obj_Perfume","path":"objects/Obj_Perfume/Obj_Perfume.yy",},},
     {"id":{"name":"Obj_Player_A","path":"objects/Obj_Player_A/Obj_Player_A.yy",},},
