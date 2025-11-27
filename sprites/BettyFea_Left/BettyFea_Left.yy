@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"BettyFea_Left",
   "bboxMode":0,
   "bbox_bottom":108,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1970b1be-32ad-4b76-8dc1-916f36b8d657","name":"1970b1be-32ad-4b76-8dc1-916f36b8d657","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"d374f363-fdc5-4a01-9c99-6b79fe0fdfff","name":"d374f363-fdc5-4a01-9c99-6b79fe0fdfff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1970b1be-32ad-4b76-8dc1-916f36b8d657","name":"1970b1be-32ad-4b76-8dc1-916f36b8d657","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d374f363-fdc5-4a01-9c99-6b79fe0fdfff","name":"d374f363-fdc5-4a01-9c99-6b79fe0fdfff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

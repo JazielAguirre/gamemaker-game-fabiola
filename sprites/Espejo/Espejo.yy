@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Espejo",
   "bboxMode":0,
   "bbox_bottom":1599,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"888709a1-9e73-43db-94c5-50b7ba2c52d2","name":"888709a1-9e73-43db-94c5-50b7ba2c52d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"888709a1-9e73-43db-94c5-50b7ba2c52d2","name":"888709a1-9e73-43db-94c5-50b7ba2c52d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1609.0,
+    "seqWidth":1600.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

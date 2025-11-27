@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Spr_Ciudad2",
   "bboxMode":0,
   "bbox_bottom":694,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"466191a4-7726-432b-a84b-283c8e9f11d4","name":"466191a4-7726-432b-a84b-283c8e9f11d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"466191a4-7726-432b-a84b-283c8e9f11d4","name":"466191a4-7726-432b-a84b-283c8e9f11d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

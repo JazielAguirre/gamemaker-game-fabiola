@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"Perfume",
   "bboxMode":0,
   "bbox_bottom":1581,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1f9bc567-cb90-4b36-abad-d3e21fcd05de","name":"1f9bc567-cb90-4b36-abad-d3e21fcd05de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1f9bc567-cb90-4b36-abad-d3e21fcd05de","name":"1f9bc567-cb90-4b36-abad-d3e21fcd05de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1600.0,
+    "seqWidth":1600.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

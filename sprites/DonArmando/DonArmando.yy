@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"DonArmando",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"fba015e6-a555-40a7-b1df-f2c8f4e1266f","name":"fba015e6-a555-40a7-b1df-f2c8f4e1266f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"5da97121-081b-45d6-b388-28ff5cc49424","name":"5da97121-081b-45d6-b388-28ff5cc49424","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fba015e6-a555-40a7-b1df-f2c8f4e1266f","name":"fba015e6-a555-40a7-b1df-f2c8f4e1266f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5da97121-081b-45d6-b388-28ff5cc49424","name":"5da97121-081b-45d6-b388-28ff5cc49424","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
