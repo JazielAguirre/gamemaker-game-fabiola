@@ -16,8 +16,8 @@ global.snd_intro=false;
 global.snd_items=false;
 global.snd_muerte=false;
 
-global.rm_inicio=Rm_01;
-global.rm_gameover=Rm_02;
+global.rm_inicio=Room1;
+global.rm_gameover=Room2;
 global.persistente=false;
 global.juego_pausado=false;
 
