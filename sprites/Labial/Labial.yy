@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Labial",
   "bboxMode":0,
   "bbox_bottom":1558,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"52056ecf-7399-4bca-bb0b-9cf592611947","name":"52056ecf-7399-4bca-bb0b-9cf592611947","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52056ecf-7399-4bca-bb0b-9cf592611947","name":"52056ecf-7399-4bca-bb0b-9cf592611947","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,6 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":1600.0,
-    "seqWidth":1600.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

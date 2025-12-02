@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Perfume",
+  "%Name":"Obj_Menu",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Player_A","path":"objects/Obj_Player_A/Obj_Player_A.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Perfume",
+  "name":"Obj_Menu",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Perfume",
-    "path":"sprites/Perfume/Perfume.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
