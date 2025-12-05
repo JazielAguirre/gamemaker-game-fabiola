@@ -1,33 +1,48 @@
-/// Lógica de Aplastar o Morir
+/// Lógica de daño corregida (SIN REINICIAR SALA)
 
-// Verificar si el jugador está cayendo (vsp > 0) Y está encima del enemigo
-// Ajusta el "y < y" según el tamaño de tus sprites
+// 1. Verificamos si Betty le cae encima (Aplastado)
 if (other.vsp > 0) && (other.bbox_bottom < y + (sprite_height / 2))
 {
-    // --- EL ENEMIGO PIERDE ---
-    
-    // 1. Hacemos rebotar a Betty (jugador)
-    other.vsp = -7; // Un saltito
-    
-    // 2. Efecto de sonido (Opcional)
-    // audio_play_sound(Snd_Golpe, 1, false);
-    
-    // 3. Destruir a Patricia
-    instance_destroy();
+    // Betty rebota
+    other.vsp = -7; 
+    // Enemigo muere
+    instance_destroy(); 
 }
 else
 {
-    // --- BETTY PIERDE ---
+    // 2. DAÑO AL JUGADOR
     
-    // Aquí pon tu lógica de daño.
-    // Como vi en tu código que usan "global.vidas", úsalo:
-    
-    global.vidas -= 1;
-    
-    // Reiniciar la sala o poner al jugador en el inicio
-    if (global.vidas > 0) {
-        room_restart(); 
-    } else {
-        room_goto(global.rm_gameover); // Ir a pantalla de Game Over
+    // Verificamos si Betty tiene el escudo activo
+    if (other.invencible == false)
+    {
+        // Solo si NO es invencible, le quitamos vida
+        global.vidas -= 1; 
+        
+        // --- AQUÍ ESTÁ LA CLAVE ---
+        // Activamos la invulnerabilidad en Betty
+        other.invencible = true;
+        
+        // Activamos la alarma 0 de Betty para que el escudo dure 1.5 segundos (90 frames)
+        other.alarm[0] = 90; 
+        
+        // Empujón hacia atrás (Knockback) para separar a Betty del enemigo
+        if (other.x < x) {
+            other.hsp = -5; // Empujar izquierda
+        } else {
+            other.hsp = 5;  // Empujar derecha
+        }
+        other.vsp = -4; // Saltito de dolor
+
+        // Reproducir sonido de daño (opcional)
+        // audio_play_sound(snd_golpe, 1, false);
+
+        // 3. GAME OVER (Solo si las vidas llegan a 0)
+        if (global.vidas <= 0)
+        {
+            // Aquí sí reiniciamos o vamos a la pantalla de perder
+            // room_restart(); 
+            // O mejor:
+            room_goto(global.rm_gameover); 
+        }
     }
 }
