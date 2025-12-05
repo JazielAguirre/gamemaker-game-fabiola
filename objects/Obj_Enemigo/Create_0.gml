@@ -1,8 +1,11 @@
 /// Configuración de Patricia
 
-hsp = -2;         // Velocidad horizontal (negativo = izquierda)
-vsp = 0;          // Velocidad vertical
-grv = 0.3;        // Gravedad
-walksp = 2;       // Velocidad de caminata
-TILE_SIZE = 32;   // Debe ser igual al tamaño de tu grid
-hp = 1;           // Vida (1 golpe y adiós)
+walksp = 2;       // Definimos la velocidad primero
+
+// Elegimos al azar: ¿2 (derecha) o -2 (izquierda)?
+hsp = choose(walksp, -walksp); 
+
+vsp = 0;
+grv = 0.3;
+TILE_SIZE = 32;
+hp = 1;
