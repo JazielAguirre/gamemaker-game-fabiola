@@ -71,3 +71,16 @@ else
     // NOTA: Como no cambiamos el 'sprite_index' aquí, 
     // se quedará con el último que usó (Izquierda o Derecha).
 }
+
+// ... (Todo tu código de movimiento) ...
+
+// Efecto visual de parpadeo
+if (invencible == true)
+{
+    // Si la opacidad es 1, la baja a 0.5, si es 0.5 la sube a 1
+    if (image_alpha == 1) image_alpha = 0.5; else image_alpha = 1;
+}
+else
+{
+    image_alpha = 1; // Si no es invencible, se ve normal
+}

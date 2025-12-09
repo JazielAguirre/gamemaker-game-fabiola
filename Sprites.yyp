@@ -34,7 +34,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Sprites",
   "resources":[
@@ -44,6 +44,7 @@
     {"id":{"name":"Obj_Bloque2","path":"objects/Obj_Bloque2/Obj_Bloque2.yy",},},
     {"id":{"name":"Obj_Bomba","path":"objects/Obj_Bomba/Obj_Bomba.yy",},},
     {"id":{"name":"Obj_Colision","path":"objects/Obj_Colision/Obj_Colision.yy",},},
+    {"id":{"name":"Obj_Enemigo","path":"objects/Obj_Enemigo/Obj_Enemigo.yy",},},
     {"id":{"name":"Obj_Espejo","path":"objects/Obj_Espejo/Obj_Espejo.yy",},},
     {"id":{"name":"Obj_Labial","path":"objects/Obj_Labial/Obj_Labial.yy",},},
     {"id":{"name":"Obj_Libros","path":"objects/Obj_Libros/Obj_Libros.yy",},},
