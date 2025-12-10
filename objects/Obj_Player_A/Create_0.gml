@@ -12,3 +12,12 @@ sprite_left = BettyFea_Left;   // Tu sprite para la izquierda
 // ... (Tus otras variables hsp, vsp, etc.)
 
 invencible = false; // Al principio no es invencible
+
+if (variable_global_exists("next_x")) {
+    x = global.next_x;
+    y = global.next_y;
+
+    // Opcional: borrar variables para evitar reusar la posición
+    global.next_x = undefined;
+    global.next_y = undefined;
+}

@@ -68,12 +68,14 @@
     {"name":"inst_C677E6E","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3835B5DA","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_20701C2","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_32EDC840","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_4214C5D","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_2FD2A80C","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Transicion","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_32EDC840","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32EDC840","objectId":{"name":"Obj_Transicion","path":"objects/Obj_Transicion/Obj_Transicion.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":2944.0,"y":640.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4214C5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4214C5D","objectId":{"name":"Obj_Controlador","path":"objects/Obj_Controlador/Obj_Controlador.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":704.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2FD2A80C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FD2A80C","objectId":{"name":"Obj_TransicionRoom2","path":"objects/Obj_TransicionRoom2/Obj_TransicionRoom2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":2912.0,"y":736.0,},
       ],"layers":[],"name":"Transicion","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Sistema","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Sistema","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"monedas","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
