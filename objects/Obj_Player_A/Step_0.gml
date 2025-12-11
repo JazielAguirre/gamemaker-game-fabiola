@@ -84,3 +84,17 @@ else
 {
     image_alpha = 1; // Si no es invencible, se ve normal
 }
+
+// --- 7. VERIFICACIÓN DE MUERTE (NUEVO) ---
+if (global.vidas <= 0)
+{
+    // Efectos de muerte (partículas? sonido?)
+    // audio_play_sound(snd_muerte, 1, false);
+    
+    instance_destroy(); // Adiós Betty
+    
+    // --- INICIAR TRANSICIÓN ---
+    global.dead_transition = true;
+    global.trans_target_room = global.rm_gameover_final;
+    global.trans_radius = display_get_gui_width(); // Empezar con todo el ancho
+}

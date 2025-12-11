@@ -1,5 +1,5 @@
-// 1. Aumentar el contador global
-global.monedas += 1;
+// 1. Aumentar el PUNTAJE (+25)
+global.puntos += 25;
 
 // 2. Reproducir un sonido de moneda (si tienes uno)
 //audio_play_sound(Snd_Coin, 1, false);

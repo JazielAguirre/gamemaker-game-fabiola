@@ -5,6 +5,10 @@ if (other.vsp > 0) && (other.bbox_bottom < y + (sprite_height / 2))
 {
     // Betty rebota
     other.vsp = -7; 
+    
+    // Sumar 100 puntos
+    global.puntos += 100;
+    
     // Enemigo muere
     instance_destroy(); 
 }
@@ -18,7 +22,9 @@ else
         // Solo si NO es invencible, le quitamos vida
         global.vidas -= 1; 
         
-        // --- AQUÍ ESTÁ LA CLAVE ---
+        // --- SOLO HERIDO (SIGUE VIVO) ---
+        // La muerte ahora la maneja el Obj_Player_A
+        
         // Activamos la invulnerabilidad en Betty
         other.invencible = true;
         
@@ -32,17 +38,8 @@ else
             other.hsp = 5;  // Empujar derecha
         }
         other.vsp = -4; // Saltito de dolor
-
+        
         // Reproducir sonido de daño (opcional)
         // audio_play_sound(snd_golpe, 1, false);
-
-        // 3. GAME OVER (Solo si las vidas llegan a 0)
-        if (global.vidas <= 0)
-        {
-            // Aquí sí reiniciamos o vamos a la pantalla de perder
-            // room_restart(); 
-            // O mejor:
-            room_goto(global.rm_gameover); 
-        }
     }
 }
