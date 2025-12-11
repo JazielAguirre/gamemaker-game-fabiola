@@ -48,7 +48,6 @@
     {"id":{"name":"Obj_ControladorRoom3","path":"objects/Obj_ControladorRoom3/Obj_ControladorRoom3.yy",},},
     {"id":{"name":"Obj_Enemigo","path":"objects/Obj_Enemigo/Obj_Enemigo.yy",},},
     {"id":{"name":"Obj_Espejo","path":"objects/Obj_Espejo/Obj_Espejo.yy",},},
-    {"id":{"name":"Obj_GameOver","path":"objects/Obj_GameOver/Obj_GameOver.yy",},},
     {"id":{"name":"Obj_Labial","path":"objects/Obj_Labial/Obj_Labial.yy",},},
     {"id":{"name":"Obj_Libros","path":"objects/Obj_Libros/Obj_Libros.yy",},},
     {"id":{"name":"Obj_Menu","path":"objects/Obj_Menu/Obj_Menu.yy",},},

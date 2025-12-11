@@ -1,3 +1,13 @@
+
+// DEBUG - al inicio del Step de Obj_Player_A (temporal)
+if (current_time % room_speed == 0) { // muestra cada 1 segundo para no spamear demasiado
+    var s = "Player DEBUG: pos=" + string(x) + "," + string(y)
+          + " -- can_control=" + string(variable_instance_exists(id,"can_control") ? string(can_control) : "no_var")
+          + " -- hspeed=" + string(variable_instance_exists(id,"hspeed") ? string(hspeed) : "no_var")
+          + " -- vspeed=" + string(variable_instance_exists(id,"vspeed") ? string(vspeed) : "no_var");
+    show_debug_message(s);
+}
+
 /// @description Lógica de Betty
 
 // 1. OBTENER INPUTS (Teclado)

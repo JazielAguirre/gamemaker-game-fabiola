@@ -70,13 +70,13 @@
     {"name":"inst_7D5B981C","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_1EC56178","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_79A61553","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_3B88EC6B","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_5B3932B","path":"rooms/Room4/Room4.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Transicion","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_79A61553","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79A61553","objectId":{"name":"Obj_TransicionRoom3","path":"objects/Obj_TransicionRoom3/Obj_TransicionRoom3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":1.5,"x":2896.0,"y":671.5,},
-        {"$GMRInstance":"v4","%Name":"inst_3B88EC6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B88EC6B","objectId":{"name":"Obj_Controlador","path":"objects/Obj_Controlador/Obj_Controlador.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":640.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5B3932B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B3932B","objectId":{"name":"Obj_ControladorRoom3","path":"objects/Obj_ControladorRoom3/Obj_ControladorRoom3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":608.0,},
       ],"layers":[],"name":"Transicion","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"monedas","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4D6F7C75","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D6F7C75","objectId":{"name":"Obj_Bomba","path":"objects/Obj_Bomba/Obj_Bomba.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.07830551,"scaleY":0.07142854,"x":96.0,"y":192.0,},
