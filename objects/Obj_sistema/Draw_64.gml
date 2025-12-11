@@ -14,7 +14,7 @@ if (room == global.rm_menu)
     draw_set_color(c_white);
     
     // Título
-    draw_text_transformed(gw/2, gh/3, "MI JUEGO INCREIBLE", 2, 2, 0);
+    draw_text_transformed(gw/2, gh/3, "Betty Bros", 2, 2, 0);
     
     // Botón JUGAR
     var btn_jugar_x = gw/2;
@@ -76,10 +76,10 @@ else if (room == global.rm_gameover_final)
     if (font_exists(fnt_Game)) draw_set_font(fnt_Game); 
     draw_set_color(c_red);
     
-    // Título
-    draw_text_transformed(gw/2, gh/3, "GAME OVER", 3, 3, 0);
+    // Título burlón
+    draw_text_transformed(gw/2, gh/3, "Has perdido por manco", 2, 2, 0);
     draw_set_color(c_white);
-    draw_text(gw/2, gh/3 + 50, "Te quedaste sin vidas!");
+    draw_text(gw/2, gh/3 + 50, "Jajaja"); // Risa añadida
     
     // Botón REINICIAR
     var btn_x = gw/2;
