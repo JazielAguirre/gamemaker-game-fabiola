@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Libros",
+  "%Name":"Obj_ControladorRoom3",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Player_A","path":"objects/Obj_Player_A/Obj_Player_A.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Libros",
+  "name":"Obj_ControladorRoom3",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Libros",
-    "path":"sprites/Libros/Libros.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

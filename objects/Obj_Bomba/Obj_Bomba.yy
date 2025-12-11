@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_Bomba",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_Player_A","path":"objects/Obj_Player_A/Obj_Player_A.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_Bomba",
   "overriddenProperties":[],
